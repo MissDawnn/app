@@ -1,0 +1,143 @@
+/* styles.css */
+/* General styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+header {
+  background-color: #f05454;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+header .logo {
+  width: 50px;
+  height: 50px;
+}
+
+nav {
+  background-color: #d2e5f3;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+}
+
+main {
+  padding: 1rem;
+}
+
+.news, .menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.news-item, .card {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.news-item img, .card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.button {
+  display: block;
+  background-color: #f05454;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 0.5rem;
+
+  /* General styles */
+}
+
+header {
+  background-color: #f05454;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+header .logo {
+  width: 50px;
+  height: 50px;
+}
+
+main {
+  padding: 1rem;
+}
+
+.detail-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.detail h2 {
+  margin-top: 1rem;
+}
+
+.emotion-bar {
+  margin: 1rem 0;
+}
+
+.emotion-bar label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.add-to-cart {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.add-to-cart button {
+  background-color: #f05454;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+#cart-items {
+  border-top: 1px solid #ddd;
+  margin: 1rem 0;
+  padding: 1rem 0;
+}
+
+#checkout {
+  text-align: right;
+}
+
+#checkout-button {
+  background-color: #f05454;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+
