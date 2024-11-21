@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="detalle">
+    <header>
+        <h1>🍴 Detalle de Empanada</h1>
+        <nav>
+            <button class="nav-back">Volver</button>
+            <button onclick="location.href='carrito.html'">Carrito <span id="cart-badge"></span></button>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <img src="empanada.jpg" alt="Empanada" class="product-image">
+            <h2>Empanada de Pollo</h2>
+            <p>Significado del color: deliciosa, fresca y única.</p>
+            <div class="quantity-selector">
+                <button id="decrease">-</button>
+                <input id="quantity" type="number" value="1" min="1">
+                <button id="increase">+</button>
+            </div>
+            <button onclick="addToCart('Empanada de Pollo', 5000, 'quantity')">Añadir al Carrito</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
